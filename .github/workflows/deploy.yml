@@ -17,6 +17,10 @@ jobs:
     # Step 1: Get the code from the repository
     - name: Checkout code
       uses: actions/checkout@v4
+
+    # Step 2: Configure GitHub Pages -----------------------
+    - name: Configure GitHub Pages
+      uses: actions/configure-pages@v5
     
     # Step 2: Validate HTML files
     - name: Validate HTML
