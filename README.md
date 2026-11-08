@@ -1,5 +1,6 @@
 # TechFlow Solutions Website
 
+
 A modern, responsive website for TechFlow Solutions - a web development company specializing in custom websites for small businesses.
 
 ## Project Structure
@@ -41,8 +42,8 @@ techflow-website/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/techflow-website.git
-   cd techflow-website
+   git clone git clone https://github.com/dufol/COMPSVIII_Assignment2_TechFlow_Website_Project.md.git
+   cd COMPSVIII_Assignment2_TechFlow_Website_Project.md
    ```
 
 2. Open the project in your text editor:
@@ -66,7 +67,7 @@ This project follows a professional Git workflow:
 
 The website is automatically deployed to GitHub Pages using GitHub Actions when changes are pushed to the `main` branch.
 
-**Live Site**: [Your GitHub Pages URL will appear here]
+**Live Site**: https://dufol.github.io/COMPSVIII_Assignment2_TechFlow_Website_Project.md/
 
 ## Development Workflow
 
