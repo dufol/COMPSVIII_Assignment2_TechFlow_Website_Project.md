@@ -3,10 +3,10 @@
 The workflow runs when code is pushed to the main branch or when a pull request is opened or updated targeting the main branch.
 # 2. What are the four main steps in the build-and-test job?
 #  The four steps are:
-Checkout code: Retrieves the repository files so the workflow can access the project.
-Validate HTML: Checks the HTML files for errors using an HTML validator.
-Check links: Check links for potential problems. This step uses continue-on-error: true, so a link-check failure will not stop the workflow.
-Upload artifact: Packages the website files so they are ready for deployment to GitHub Pages.
+1. **Checkout code:** Retrieves the repository files so the workflow can access the project.
+2. **Validate HTML:** Checks the HTML files for errors using an HTML validator.
+3. **Check links:** Check links for potential problems. This step uses continue-on-error: true, so a link-check failure will not stop the workflow.
+4. **Upload artifact:** Packages the website files so they are ready for deployment to GitHub Pages.
 # 3. What does Checkout code do, and why is it necessary?
 Checkout code uses the GitHub Actions checkout action to download the repository's files into the workflow's environment. It is necessary because the other steps need access to the project's HTML files and other website resources to validate, test, and prepare the website.
 # 4. What is the purpose of the environment configuration?
